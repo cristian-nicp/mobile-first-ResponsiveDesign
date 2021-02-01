@@ -1,0 +1,45 @@
+html{
+	font-size: 65%;
+}
+
+
+.main-tables-container{
+	display: flex;
+	width: 930px;/*para que ya no crezcan más las tablas*/
+	margin: 0 auto;
+	overflow-x: hidden;
+}
+
+.product-cards--container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 930px;
+	margin: 0 auto;
+}
+
+.bitcoin-img-container{
+	background-image: url("../assets/imgs/bitcoinbaby4x.jpg");
+}
+
+
+.plans-container--slider{
+	justify-content: center;
+	overflow-x: hidden;
+}
+
+footer .right{
+	justify-content: flex-end;
+	margin-right: 18px;
+}
+
+
+footer .left ul{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+footer .left ul li{
+	margin: 26px;
+}
